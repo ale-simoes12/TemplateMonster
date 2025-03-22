@@ -29,4 +29,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
+
+
+
+
+.corpo-fundo{
+    background-image: url("../imagens/banner.jpg");
+    background-size: cover;
+    height: 80vh; 
+    
+}
+
