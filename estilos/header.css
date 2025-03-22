@@ -13,11 +13,12 @@
     padding: 0;
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 30px;
 }
 
 .cabecalho-menu-lista-item{
-    
+    font-size :15px;
+    font-weight :600;
     text-transform: uppercase;
 }
 
@@ -34,11 +35,4 @@
 
 
 
-
-.corpo-fundo{
-    background-image: url("../imagens/banner.jpg");
-    background-size: cover;
-    height: 80vh; 
-    
-}
 

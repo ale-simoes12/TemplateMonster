@@ -1,0 +1,87 @@
+.corpo-fundo{
+    background-image: url("../imagens/banner.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 80vh; 
+    
+}
+
+
+.corpo-filtro{
+    
+    width: 100%;
+    margin-top: -50px;
+    /* background-color: black; */
+    /* background-color: rgb(255, 255, 255); */
+    height: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.corpo-filtro-sessao{
+    width: 90%;
+    height: 126px;
+    background-color: rgb(255, 255, 255);
+    
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+     padding-left: 30px;
+    padding-right: 30px;
+}
+
+.corpo-filtro-tipo{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    gap: 20px;
+    width: 234px;
+    height: 60px;
+   
+}
+
+
+.corpo-filtro-tipo-botao {
+    background-color: rgb(70, 136, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 234px;
+    height: 60px;
+
+}
+
+
+.corpo-filtro-tipo{
+    text-transform: uppercase;
+    color: rgb(25, 41, 69);
+    font-size :15px;
+    font-weight :600;
+    
+}
+
+.filtro-imagem{
+    width: 20px;
+    height: 20px;
+   
+
+}
+
+
+
+.corpo-filtro-tipo-botao{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size :15px;
+    font-weight :600;
+
+}
