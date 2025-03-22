@@ -2,17 +2,39 @@ body{
     background-color: #f7f7f7;;
 }
 
+.titulo{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+
+}
+
 .corpo-fundo{
     background-image: url("../imagens/banner.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: end;
-    height: 80vh; 
+    align-items: center;
+    height: 70vh; 
     
 }
 
-
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+h1{
+    margin: 0;
+}
+p{
+    margin: 0;
+    color: white;
+}
 .corpo-filtro{
     
     width: 100%;
@@ -37,7 +59,7 @@ body{
     align-items: center;
     gap: 10px;
    
-     padding-left: 30px;
+    padding-left: 30px;
     padding-right: 30px;
 }
 
