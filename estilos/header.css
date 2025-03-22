@@ -17,11 +17,21 @@
 }
 
 .cabecalho-menu-lista-item{
+    display: flex;
+    align-items: center;
+    color: rgb(25, 41, 69);
+    gap: 8px;
     font-size :15px;
     font-weight :600;
     text-transform: uppercase;
+    
 }
 
+a{   
+
+    color: rgb(25, 41, 69);
+    text-decoration: none;
+}
 
 .cabecalho{
     height: 82px;
@@ -31,6 +41,12 @@
     justify-content: space-between;
     align-items: center;
     
+}
+
+.flecha{
+    width: 10px;
+    height:10px;
+    transform: rotate(270deg);
 }
 
 
